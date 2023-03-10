@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+h1 {
+    font-family: 'poppins';
+}
+
+.fa-image {
+    opacity: 0.6;
+}
+
+article .card:hover {
+    background-color: darkslategray;
+    color: white;
+}
+
+.page-link a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+    .pagination {
+        font-size: 12px !important;
+    }
+
+    .pagination .next,
+    .pagination .prev {
+        display: none;
+    }
+}
